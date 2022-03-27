@@ -1,0 +1,24 @@
+<head>
+<title>Index2</title>
+<script>
+
+</script>
+ 
+<style>
+</style>
+ </head>
+
+<body onload=getSum()>
+<script>
+function getSum() {
+  const val = localStorage.getItem("sum");
+  console.log(val);
+  document.getElementById("sum").innerHTML = val;
+}
+</script>
+
+<p id="sum"></p>
+</body>
+
+</html>
+
